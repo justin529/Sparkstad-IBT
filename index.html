@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Politie Administratie</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Politie Administratie</h1>
+        <input type="text" id="searchInput" placeholder="Zoek op naam of roepnummer...">
+    </header>
+
+    <table id="medewerkersTable">
+        <thead>
+            <tr>
+                <th data-sort="roepnummer">Roep</th>
+                <th data-sort="rang">Rang</th>
+                <th data-sort="naam">Naam</th>
+                <th data-sort="status">Status</th>
+                <th data-sort="geslaagd">Geslaagd</th>
+                <th data-sort="open">Open</th>
+                <th data-sort="gezakt">Gezakt</th>
+                <th data-sort="laatsteUpdate">Laatste update</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Wordt gevuld door main.js -->
+        </tbody>
+    </table>
+
+    <script src="js/main.js"></script>
+    <script src="js/filters.js"></script>
+</body>
+</html>

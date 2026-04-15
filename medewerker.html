@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Medewerker Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Medewerker Details</h1>
+    <button onclick="window.location.href='index.html'">← Terug</button>
+</header>
+
+<div id="detailsContainer">
+    <div class="info-card">
+        <h2 id="naam"></h2>
+        <p><strong>Roepnummer:</strong> <span id="roepnummer"></span></p>
+        <p><strong>Rang:</strong> <span id="rang"></span></p>
+        <p><strong>Status:</strong> <span id="status"></span></p>
+        <p><strong>Laatste update:</strong> <span id="laatsteUpdate"></span></p>
+    </div>
+
+    <h3>Trainingen</h3>
+    <table id="trainingTable">
+        <thead>
+            <tr>
+                <th>Training</th>
+                <th>Theorie</th>
+                <th>Praktijk</th>
+                <th>Laatste update</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Wordt gevuld door medewerker.js -->
+        </tbody>
+    </table>
+</div>
+
+<script src="js/medewerker.js"></script>
+</body>
+</html>
