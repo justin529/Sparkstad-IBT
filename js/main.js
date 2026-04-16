@@ -11,23 +11,27 @@ function buildTable(data) {
     data.forEach(medewerker => {
         const tr = document.createElement("tr");
 
+        // status omzetten naar tekst
+        const statusText = medewerker.status?.actief ? "Actief" : "Inactief";
+
+        // trainingen tellen
         const geslaagd = countStatus(medewerker, "geslaagd");
         const open = countStatus(medewerker, "open");
         const gezakt = countStatus(medewerker, "gezakt");
 
         tr.innerHTML = `
-            <td>${medewerker.roepnummer}</td>
+            <td>${medewerker.id}</td>
             <td>${medewerker.rang}</td>
             <td>${medewerker.naam}</td>
-            <td class="status-${medewerker.status.toLowerCase()}">${medewerker.status}</td>
+            <td class="status-${statusText.toLowerCase()}">${statusText}</td>
             <td class="cell-geslaagd">${geslaagd}</td>
             <td class="cell-open">${open}</td>
             <td class="cell-gezakt">${gezakt}</td>
-            <td>${new Date(medewerker.laatsteUpdate).toLocaleDateString()}</td>
+            <td>-</td>
         `;
 
         tr.onclick = () => {
-            window.location.href = `medewerker.html?id=${medewerker.discordId}`;
+            window.location.href = `medewerker.html?id=${medewerker.id}`;
         };
 
         tbody.appendChild(tr);
@@ -36,7 +40,7 @@ function buildTable(data) {
 
 function countStatus(medewerker, type) {
     let count = 0;
-    for (const training of Object.values(medewerker.trainingen)) {
+    for (const training of Object.values(medewerker.trainingen || {})) {
         if (training.praktijk === type || training.theorie === type) {
             count++;
         }
