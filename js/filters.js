@@ -1,8 +1,24 @@
+let fullData = [];
+
 async function loadData() {
     const response = await fetch("data/medewerkers.json");
-    const data = await response.json();
-    buildTable(data);
+    fullData = await response.json();
+
+    fullData.sort((a, b) => (a.roepnummer || "").localeCompare(b.roepnummer || ""));
+
+    buildTable(fullData);
 }
+
+document.querySelector("#searchInput").addEventListener("input", e => {
+    const q = e.target.value.toLowerCase();
+
+    const filtered = fullData.filter(m =>
+        m.roepnummer?.toLowerCase().includes(q) ||
+        m.naam?.toLowerCase().includes(q)
+    );
+
+    buildTable(filtered);
+});
 
 function buildTable(data) {
     const tbody = document.querySelector("#medewerkersTable tbody");
@@ -17,7 +33,7 @@ function buildTable(data) {
 
         const tr = document.createElement("tr");
         tr.innerHTML = `
-            <td>${m.roepnummer || "-"}</td>
+            <td>${m.roepnummer}</td>
             <td>${m.rang}</td>
             <td>${m.naam}</td>
             <td class="status-${statusText.toLowerCase()}">${statusText}</td>
@@ -36,11 +52,9 @@ function buildTable(data) {
 }
 
 function countStatus(m, type) {
-    let count = 0;
-    for (const t of Object.values(m.trainingen || {})) {
-        if (t.praktijk === type || t.theorie === type) count++;
-    }
-    return count;
+    return Object.values(m.trainingen || {}).filter(t =>
+        t.praktijk === type || t.theorie === type
+    ).length;
 }
 
 loadData();
