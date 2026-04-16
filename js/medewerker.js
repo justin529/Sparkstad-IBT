@@ -16,11 +16,22 @@ async function loadData() {
 }
 
 function buildPage(m) {
+    // Basisgegevens
     document.querySelector("#naam").textContent = m.naam;
     document.querySelector("#rang").textContent = m.rang;
-    document.querySelector("#status").textContent = m.status?.actief ? "Actief" : "Inactief";
 
-    const tbody = document.querySelector("#trainingen tbody");
+    // Roepnummer bestaat niet → toon ID
+    document.querySelector("#roepnummer").textContent = m.id;
+
+    // Status omzetten
+    const statusText = m.status?.actief ? "Actief" : "Inactief";
+    document.querySelector("#status").textContent = statusText;
+
+    // Laatste update bestaat niet → placeholder
+    document.querySelector("#laatsteUpdate").textContent = "-";
+
+    // Trainingen tabel
+    const tbody = document.querySelector("#trainingTable tbody");
     tbody.innerHTML = "";
 
     for (const [naam, training] of Object.entries(m.trainingen || {})) {
@@ -30,6 +41,7 @@ function buildPage(m) {
             <td>${naam}</td>
             <td>${training.theorie || "-"}</td>
             <td>${training.praktijk || "-"}</td>
+            <td>-</td>
         `;
 
         tbody.appendChild(tr);
