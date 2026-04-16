@@ -5,45 +5,33 @@ async function loadData() {
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
 
-    const medewerker = data.find(m => m.id === id);
+    const m = data.find(x => x.id === id);
+    if (!m) return;
 
-    if (!medewerker) {
-        document.querySelector("#naam").textContent = "Onbekend";
-        return;
-    }
-
-    buildPage(medewerker);
+    buildPage(m);
 }
 
 function buildPage(m) {
-    // Basisgegevens
     document.querySelector("#naam").textContent = m.naam;
     document.querySelector("#rang").textContent = m.rang;
+    document.querySelector("#roepnummer").textContent = m.roepnummer || m.id;
 
-    // Roepnummer bestaat niet → toon ID
-    document.querySelector("#roepnummer").textContent = m.id;
-
-    // Status omzetten
     const statusText = m.status?.actief ? "Actief" : "Inactief";
     document.querySelector("#status").textContent = statusText;
 
-    // Laatste update bestaat niet → placeholder
     document.querySelector("#laatsteUpdate").textContent = "-";
 
-    // Trainingen tabel
     const tbody = document.querySelector("#trainingTable tbody");
     tbody.innerHTML = "";
 
-    for (const [naam, training] of Object.entries(m.trainingen || {})) {
+    for (const [naam, t] of Object.entries(m.trainingen || {})) {
         const tr = document.createElement("tr");
-
         tr.innerHTML = `
             <td>${naam}</td>
-            <td>${training.theorie || "-"}</td>
-            <td>${training.praktijk || "-"}</td>
+            <td>${t.theorie || "-"}</td>
+            <td>${t.praktijk || "-"}</td>
             <td>-</td>
         `;
-
         tbody.appendChild(tr);
     }
 }
