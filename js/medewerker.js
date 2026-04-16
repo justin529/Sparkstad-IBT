@@ -1,38 +1,39 @@
-async function loadMedewerker() {
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get("id");
-
+async function loadData() {
     const response = await fetch("data/medewerkers.json");
     const data = await response.json();
 
-    const medewerker = data.find(m => m.discordId === id);
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+
+    const medewerker = data.find(m => m.id === id);
+
     if (!medewerker) {
-        document.body.innerHTML = "<h2>Medewerker niet gevonden</h2>";
+        document.querySelector("#naam").textContent = "Onbekend";
         return;
     }
 
-    document.getElementById("naam").textContent = medewerker.naam;
-    document.getElementById("roepnummer").textContent = medewerker.roepnummer;
-    document.getElementById("rang").textContent = medewerker.rang;
-    document.getElementById("status").textContent = medewerker.status;
-    document.getElementById("laatsteUpdate").textContent =
-        new Date(medewerker.laatsteUpdate).toLocaleString();
+    buildPage(medewerker);
+}
 
-    const tbody = document.querySelector("#trainingTable tbody");
+function buildPage(m) {
+    document.querySelector("#naam").textContent = m.naam;
+    document.querySelector("#rang").textContent = m.rang;
+    document.querySelector("#status").textContent = m.status?.actief ? "Actief" : "Inactief";
+
+    const tbody = document.querySelector("#trainingen tbody");
     tbody.innerHTML = "";
 
-    for (const [trainingNaam, training] of Object.entries(medewerker.trainingen)) {
+    for (const [naam, training] of Object.entries(m.trainingen || {})) {
         const tr = document.createElement("tr");
 
         tr.innerHTML = `
-            <td>${trainingNaam}</td>
-            <td class="cell-${training.theorie}">${training.theorie}</td>
-            <td class="cell-${training.praktijk}">${training.praktijk}</td>
-            <td>${new Date(training.laatsteUpdate).toLocaleDateString()}</td>
+            <td>${naam}</td>
+            <td>${training.theorie || "-"}</td>
+            <td>${training.praktijk || "-"}</td>
         `;
 
         tbody.appendChild(tr);
     }
 }
 
-loadMedewerker();
+loadData();
