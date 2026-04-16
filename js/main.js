@@ -24,9 +24,9 @@ function buildTable(data) {
             <td>${medewerker.rang}</td>
             <td>${medewerker.naam}</td>
             <td class="status-${statusText.toLowerCase()}">${statusText}</td>
-            <td class="cell-geslaagd">${geslaagd}</td>
-            <td class="cell-open">${open}</td>
-            <td class="cell-gezakt">${gezakt}</td>
+            <td>${geslaagd}</td>
+            <td>${open}</td>
+            <td>${gezakt}</td>
             <td>-</td>
         `;
 
