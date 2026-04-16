@@ -1,22 +1,45 @@
 [
     {
         "id": "1116812364243808266",
-        "naam": "Onbekend",
-        "rang": "Onbekend",
+        "naam": "unmarked_ghost",
+        "rang": "Surveillant",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     },
     {
         "id": "1122541315742257184",
-        "naam": "Onbekend",
-        "rang": "Onbekend",
+        "naam": "wesley325",
+        "rang": "Eerste Hoofdcommissaris",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
+    },
+    {
+        "id": "1136676284945137705",
+        "naam": "abdi_078010",
+        "rang": "Hoofdagent",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     },
     {
         "id": "1144261410461843528",
+        "naam": "robinn2039",
+        "rang": "Aspirant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
+    },
+    {
         "naam": "Onbekend",
         "rang": "Onbekend",
         "dienst": "Politie",
@@ -24,67 +47,133 @@
         "trainingen": {}
     },
     {
-        "id": "1213174761610285136",
-        "naam": "Onbekend",
-        "rang": "Onbekend",
+        "id": "1404838036394610710",
+        "naam": "lucasfeenstra2003",
+        "rang": "Surveillant",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
+    },
+    {
+        "id": "1479968754078322735",
+        "naam": "politiesparkstad",
+        "rang": "Surveillant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
+    },
+    {
+        "id": "284955303081148417",
+        "naam": "trbdylan",
+        "rang": "Aspirant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     },
     {
         "id": "523482735394684948",
-        "naam": "Onbekend",
+        "naam": "rubin848",
         "rang": "Onbekend",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     },
     {
         "id": "654027144481079296",
-        "naam": "Onbekend",
-        "rang": "Onbekend",
+        "naam": "justin7787",
+        "rang": "Hoofdcommissaris",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     },
     {
         "id": "663418275279011840",
-        "naam": "Onbekend",
-        "rang": "Onbekend",
+        "naam": "kyaro0261",
+        "rang": "Agent",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     },
     {
         "id": "710740734315331604",
-        "naam": "Onbekend",
-        "rang": "agent",
+        "naam": "swagahe",
+        "rang": "Agent",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     },
     {
         "id": "733041230086406205",
-        "naam": "Onbekend",
-        "rang": "Onbekend",
+        "naam": "tygi0__",
+        "rang": "Surveillant",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     },
     {
         "id": "748991976636022975",
-        "naam": "Onbekend",
-        "rang": "Onbekend",
+        "naam": "swordmaster8706",
+        "rang": "Surveillant",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
+    },
+    {
+        "id": "771014975015092255",
+        "naam": "luuk3029",
+        "rang": "Agent",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
+    },
+    {
+        "id": "776845044526874694",
+        "naam": "waterwalker6575",
+        "rang": "Surveillant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
+    },
+    {
+        "id": "905452859666100365",
+        "naam": "dylano.a",
+        "rang": "Aspirant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     },
     {
         "id": "962022366463029350",
-        "naam": "Onbekend",
-        "rang": "Onbekend",
+        "naam": "nick02",
+        "rang": "Agent",
         "dienst": "Politie",
-        "status": {},
+        "status": {
+            "actief": true
+        },
         "trainingen": {}
     }
 ]
