@@ -1,9 +1,49 @@
-document.getElementById("searchInput").addEventListener("input", function () {
-    const filter = this.value.toLowerCase();
-    const rows = document.querySelectorAll("#medewerkersTable tbody tr");
+async function loadData() {
+    const response = await fetch("data/medewerkers.json");
+    const data = await response.json();
+    buildTable(data);
+}
 
-    rows.forEach(row => {
-        const text = row.innerText.toLowerCase();
-        row.style.display = text.includes(filter) ? "" : "none";
+function buildTable(data) {
+    const tbody = document.querySelector("#medewerkersTable tbody");
+    tbody.innerHTML = "";
+
+    data.forEach(medewerker => {
+        const tr = document.createElement("tr");
+
+        const statusText = medewerker.status?.actief ? "Actief" : "Inactief";
+
+        const geslaagd = countStatus(medewerker, "geslaagd");
+        const open = countStatus(medewerker, "open");
+        const gezakt = countStatus(medewerker, "gezakt");
+
+        tr.innerHTML = `
+            <td>${medewerker.id}</td>
+            <td>${medewerker.rang}</td>
+            <td>${medewerker.naam}</td>
+            <td class="status-${statusText.toLowerCase()}">${statusText}</td>
+            <td>${geslaagd}</td>
+            <td>${open}</td>
+            <td>${gezakt}</td>
+            <td>-</td>
+        `;
+
+        tr.onclick = () => {
+            window.location.href = `medewerker.html?id=${medewerker.id}`;
+        };
+
+        tbody.appendChild(tr);
     });
-});
+}
+
+function countStatus(medewerker, type) {
+    let count = 0;
+    for (const training of Object.values(medewerker.trainingen || {})) {
+        if (training.praktijk === type || training.theorie === type) {
+            count++;
+        }
+    }
+    return count;
+}
+
+loadData();
