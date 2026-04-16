@@ -2,6 +2,7 @@
     {
         "id": "1116812364243808266",
         "naam": "unmarked_ghost",
+        "roepnummer": "[21-37| II] Peter I.",
         "rang": "Surveillant",
         "dienst": "Politie",
         "status": {
@@ -12,6 +13,7 @@
     {
         "id": "1122541315742257184",
         "naam": "wesley325",
+        "roepnummer": "[21-01 | ✷✷✷ ] Pieter P.",
         "rang": "Eerste Hoofdcommissaris",
         "dienst": "Politie",
         "status": {
@@ -22,6 +24,7 @@
     {
         "id": "1136676284945137705",
         "naam": "abdi_078010",
+        "roepnummer": "[21-40 | IIII] Ahmed",
         "rang": "Hoofdagent",
         "dienst": "Politie",
         "status": {
@@ -32,6 +35,7 @@
     {
         "id": "1144261410461843528",
         "naam": "robinn2039",
+        "roepnummer": "[21-40 | I] Bennie T.",
         "rang": "Aspirant",
         "dienst": "Politie",
         "status": {
@@ -40,15 +44,53 @@
         "trainingen": {}
     },
     {
-        "naam": "Onbekend",
-        "rang": "Onbekend",
-        "dienst": "Politie",
-        "status": {},
-        "trainingen": {}
+        "Politie": {
+            "Afhandelen verdachte": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-08T15:18:03.452Z"
+            },
+            "Offroad": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:21:02.197Z"
+            },
+            "Verkeerspolitie": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:25:13.240Z"
+            },
+            "Motor": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:28:31.634Z"
+            },
+            "Waterpolitie": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:30:40.460Z"
+            },
+            "Luchtvaart politie basis": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:35:18.933Z"
+            },
+            "Unmarked": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:38:50.702Z"
+            },
+            "Opco": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:52:09.911Z"
+            }
+        }
     },
     {
         "id": "1404838036394610710",
         "naam": "lucasfeenstra2003",
+        "roepnummer": "lucasfeenstra",
         "rang": "Surveillant",
         "dienst": "Politie",
         "status": {
@@ -59,6 +101,7 @@
     {
         "id": "1479968754078322735",
         "naam": "politiesparkstad",
+        "roepnummer": "Politie Sparkstad",
         "rang": "Surveillant",
         "dienst": "Politie",
         "status": {
@@ -69,6 +112,7 @@
     {
         "id": "284955303081148417",
         "naam": "trbdylan",
+        "roepnummer": "[21-41 | I] Jack N",
         "rang": "Aspirant",
         "dienst": "Politie",
         "status": {
@@ -79,6 +123,7 @@
     {
         "id": "523482735394684948",
         "naam": "rubin848",
+        "roepnummer": "[OM | 21-03 | ✷ ] Rubin L.",
         "rang": "Onbekend",
         "dienst": "Politie",
         "status": {
@@ -89,6 +134,7 @@
     {
         "id": "654027144481079296",
         "naam": "justin7787",
+        "roepnummer": "[21-02 | ✷✷ ] Justin H.",
         "rang": "Hoofdcommissaris",
         "dienst": "Politie",
         "status": {
@@ -99,6 +145,7 @@
     {
         "id": "663418275279011840",
         "naam": "kyaro0261",
+        "roepnummer": "[21-24 | III] Johnny H.",
         "rang": "Agent",
         "dienst": "Politie",
         "status": {
@@ -109,6 +156,7 @@
     {
         "id": "710740734315331604",
         "naam": "swagahe",
+        "roepnummer": "Justin 2 (Test acc)",
         "rang": "Agent",
         "dienst": "Politie",
         "status": {
@@ -119,6 +167,7 @@
     {
         "id": "733041230086406205",
         "naam": "tygi0__",
+        "roepnummer": "[21-34 | II] Boom.M",
         "rang": "Surveillant",
         "dienst": "Politie",
         "status": {
@@ -129,6 +178,7 @@
     {
         "id": "748991976636022975",
         "naam": "swordmaster8706",
+        "roepnummer": "[21-33 | II] ] 𝕭𝖆𝖘𝖙𝖎𝖆𝖆𝖓",
         "rang": "Surveillant",
         "dienst": "Politie",
         "status": {
@@ -139,6 +189,7 @@
     {
         "id": "771014975015092255",
         "naam": "luuk3029",
+        "roepnummer": "[21-32 | III] Luuk A.",
         "rang": "Agent",
         "dienst": "Politie",
         "status": {
@@ -149,6 +200,7 @@
     {
         "id": "776845044526874694",
         "naam": "waterwalker6575",
+        "roepnummer": "[21-38| II] Bram P.",
         "rang": "Surveillant",
         "dienst": "Politie",
         "status": {
@@ -159,6 +211,7 @@
     {
         "id": "905452859666100365",
         "naam": "dylano.a",
+        "roepnummer": "[21-35 | II] Dylano A.",
         "rang": "Aspirant",
         "dienst": "Politie",
         "status": {
@@ -169,6 +222,7 @@
     {
         "id": "962022366463029350",
         "naam": "nick02",
+        "roepnummer": "[21-25] Pedro S.",
         "rang": "Agent",
         "dienst": "Politie",
         "status": {
