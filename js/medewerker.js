@@ -14,11 +14,8 @@ async function loadData() {
 function buildPage(m) {
     document.querySelector("#naam").textContent = m.naam;
     document.querySelector("#rang").textContent = m.rang;
-    document.querySelector("#roepnummer").textContent = m.roepnummer || m.id;
-
-    const statusText = m.status?.actief ? "Actief" : "Inactief";
-    document.querySelector("#status").textContent = statusText;
-
+    document.querySelector("#roepnummer").textContent = m.roepnummer;
+    document.querySelector("#status").textContent = m.status?.actief ? "Actief" : "Inactief";
     document.querySelector("#laatsteUpdate").textContent = "-";
 
     const tbody = document.querySelector("#trainingTable tbody");
