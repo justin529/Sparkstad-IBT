@@ -1,6 +1,9 @@
 async function loadData() {
     const response = await fetch("data/medewerkers.json");
-    const data = await response.json();
+    let data = await response.json();
+
+    data.sort((a, b) => (a.roepnummer || "").localeCompare(b.roepnummer || ""));
+
     buildTable(data);
 }
 
@@ -17,7 +20,7 @@ function buildTable(data) {
 
         const tr = document.createElement("tr");
         tr.innerHTML = `
-            <td>${m.roepnummer || "-"}</td>
+            <td>${m.roepnummer}</td>
             <td>${m.rang}</td>
             <td>${m.naam}</td>
             <td class="status-${statusText.toLowerCase()}">${statusText}</td>
@@ -36,11 +39,9 @@ function buildTable(data) {
 }
 
 function countStatus(m, type) {
-    let count = 0;
-    for (const t of Object.values(m.trainingen || {})) {
-        if (t.praktijk === type || t.theorie === type) count++;
-    }
-    return count;
+    return Object.values(m.trainingen || {}).filter(t =>
+        t.praktijk === type || t.theorie === type
+    ).length;
 }
 
 loadData();
