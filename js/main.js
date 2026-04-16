@@ -8,21 +8,18 @@ function buildTable(data) {
     const tbody = document.querySelector("#medewerkersTable tbody");
     tbody.innerHTML = "";
 
-    data.forEach(medewerker => {
+    data.forEach(m => {
+        const statusText = m.status?.actief ? "Actief" : "Inactief";
+
+        const geslaagd = countStatus(m, "geslaagd");
+        const open = countStatus(m, "open");
+        const gezakt = countStatus(m, "gezakt");
+
         const tr = document.createElement("tr");
-
-        // status omzetten naar tekst
-        const statusText = medewerker.status?.actief ? "Actief" : "Inactief";
-
-        // trainingen tellen
-        const geslaagd = countStatus(medewerker, "geslaagd");
-        const open = countStatus(medewerker, "open");
-        const gezakt = countStatus(medewerker, "gezakt");
-
         tr.innerHTML = `
-            <td>${medewerker.id}</td>
-            <td>${medewerker.rang}</td>
-            <td>${medewerker.naam}</td>
+            <td>${m.roepnummer || "-"}</td>
+            <td>${m.rang}</td>
+            <td>${m.naam}</td>
             <td class="status-${statusText.toLowerCase()}">${statusText}</td>
             <td>${geslaagd}</td>
             <td>${open}</td>
@@ -31,19 +28,17 @@ function buildTable(data) {
         `;
 
         tr.onclick = () => {
-            window.location.href = `medewerker.html?id=${medewerker.id}`;
+            window.location.href = `medewerker.html?id=${m.id}`;
         };
 
         tbody.appendChild(tr);
     });
 }
 
-function countStatus(medewerker, type) {
+function countStatus(m, type) {
     let count = 0;
-    for (const training of Object.values(medewerker.trainingen || {})) {
-        if (training.praktijk === type || training.theorie === type) {
-            count++;
-        }
+    for (const t of Object.values(m.trainingen || {})) {
+        if (t.praktijk === type || t.theorie === type) count++;
     }
     return count;
 }
