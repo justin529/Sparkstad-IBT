@@ -88,6 +88,17 @@
         }
     },
     {
+        "id": "1307740987849838707",
+        "naam": "jarno_verreussel",
+        "roepnummer": "[21-42 | I] Jarno.",
+        "rang": "Aspirant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
+    },
+    {
         "id": "1404838036394610710",
         "naam": "lucasfeenstra2003",
         "roepnummer": "lucasfeenstra",
@@ -140,18 +151,44 @@
         "status": {
             "actief": true
         },
-        "trainingen": {}
+        "trainingen": {
+            "Politie": {
+                "Basis": {
+                    "praktijk": "geslaagd"
+                }
+            }
+        }
     },
     {
         "id": "663418275279011840",
         "naam": "kyaro0261",
-        "roepnummer": "[21-24 | III] Johnny H.",
-        "rang": "Agent",
+        "roepnummer": "[21-21 | IIII] Johnny H.",
+        "rang": "Hoofdagent",
         "dienst": "Politie",
         "status": {
             "actief": true
         },
         "trainingen": {}
+    },
+    {
+        "id": "710740734315331604",
+        "naam": "swagahe",
+        "roepnummer": "Justin 2 (Test acc)",
+        "rang": "Aspirant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {
+            "Politie": {
+                "Basis": {
+                    "praktijk": "geslaagd"
+                },
+                "Voertuigbeheersing": {
+                    "praktijk": "geslaagd"
+                }
+            }
+        }
     },
     {
         "id": "733041230086406205",
@@ -167,8 +204,8 @@
     {
         "id": "748991976636022975",
         "naam": "swordmaster8706",
-        "roepnummer": "[21-33 | II] ] 𝕭𝖆𝖘𝖙𝖎𝖆𝖆𝖓",
-        "rang": "Surveillant",
+        "roepnummer": "[21-24 | III] 𝕭𝖆𝖘𝖙𝖎𝖆𝖆𝖓",
+        "rang": "Agent",
         "dienst": "Politie",
         "status": {
             "actief": true
@@ -211,8 +248,8 @@
     {
         "id": "962022366463029350",
         "naam": "nick02",
-        "roepnummer": "[21-25] Pedro S.",
-        "rang": "Agent",
+        "roepnummer": "[21-20 | IIII] Pedro S.",
+        "rang": "Hoofdagent",
         "dienst": "Politie",
         "status": {
             "actief": true
