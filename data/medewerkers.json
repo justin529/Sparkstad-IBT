@@ -168,7 +168,18 @@
         "status": {
             "actief": true
         },
-        "trainingen": {}
+        "trainingen": {},
+        "Politie": {
+            "Luchtvaart politie basis": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-20T19:09:48.374Z"
+            },
+            "Verkeerspolitie": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-20T20:27:11.162Z"
+            }
+        }
     },
     {
         "id": "710740734315331604",
@@ -210,7 +221,13 @@
         "status": {
             "actief": true
         },
-        "trainingen": {}
+        "trainingen": {},
+        "Politie": {
+            "Motor": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-20T19:33:59.371Z"
+            }
+        }
     },
     {
         "id": "771014975015092255",
@@ -227,12 +244,22 @@
         "id": "776845044526874694",
         "naam": "waterwalker6575",
         "roepnummer": "[21-38| II] Bram P.",
-        "rang": "Surveillant",
+        "rang": "agent",
         "dienst": "Politie",
         "status": {
             "actief": true
         },
-        "trainingen": {}
+        "trainingen": {},
+        "Politie": {
+            "Motor": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-20T19:33:07.864Z"
+            },
+            "Afhandelen verdachte": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-20T19:33:28.025Z"
+            }
+        }
     },
     {
         "id": "905452859666100365",
