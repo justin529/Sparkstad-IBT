@@ -213,23 +213,6 @@
         "trainingen": {}
     },
     {
-        "id": "748991976636022975",
-        "naam": "swordmaster8706",
-        "roepnummer": "[21-24 | III] 𝕭𝖆𝖘𝖙𝖎𝖆𝖆𝖓",
-        "rang": "Agent",
-        "dienst": "Politie",
-        "status": {
-            "actief": true
-        },
-        "trainingen": {},
-        "Politie": {
-            "Motor": {
-                "praktijk": "geslaagd",
-                "laatsteUpdate": "2026-04-20T19:33:59.371Z"
-            }
-        }
-    },
-    {
         "id": "771014975015092255",
         "naam": "luuk3029",
         "roepnummer": "[21-32 | III] Luuk A.",
