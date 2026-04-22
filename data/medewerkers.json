@@ -96,7 +96,14 @@
         "status": {
             "actief": true
         },
-        "trainingen": {}
+        "trainingen": {},
+        "Politie": {
+            "Basis": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-22T20:19:57.859Z"
+            }
+        }
     },
     {
         "id": "1404838036394610710",
@@ -180,6 +187,15 @@
                 "laatsteUpdate": "2026-04-20T20:27:11.162Z"
             }
         }
+    },
+    {
+        "id": "702187920525623337",
+        "naam": "wicked5417",
+        "rang": "Aspirant",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
         "id": "710740734315331604",
