@@ -224,27 +224,6 @@
         "trainingen": {}
     },
     {
-        "id": "776845044526874694",
-        "naam": "waterwalker6575",
-        "roepnummer": "[21-38| II] Bram P.",
-        "rang": "agent",
-        "dienst": "Politie",
-        "status": {
-            "actief": true
-        },
-        "trainingen": {},
-        "Politie": {
-            "Motor": {
-                "praktijk": "geslaagd",
-                "laatsteUpdate": "2026-04-20T19:33:07.864Z"
-            },
-            "Afhandelen verdachte": {
-                "praktijk": "geslaagd",
-                "laatsteUpdate": "2026-04-20T19:33:28.025Z"
-            }
-        }
-    },
-    {
         "id": "905452859666100365",
         "naam": "dylano.a",
         "roepnummer": "[21-35 | II] Dylano A.",
