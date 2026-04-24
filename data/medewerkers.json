@@ -22,17 +22,6 @@
         "trainingen": {}
     },
     {
-        "id": "1136676284945137705",
-        "naam": "abdi_078010",
-        "roepnummer": "[21-40 | IIII] Ahmed",
-        "rang": "Hoofdagent",
-        "dienst": "Politie",
-        "status": {
-            "actief": true
-        },
-        "trainingen": {}
-    },
-    {
         "id": "1144261410461843528",
         "naam": "robinn2039",
         "roepnummer": "[21-40 | I] Bennie T.",
@@ -179,8 +168,8 @@
         "Politie": {
             "Luchtvaart politie basis": {
                 "theorie": "geslaagd",
-                "praktijk": "open",
-                "laatsteUpdate": "2026-04-20T19:09:48.374Z"
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-24T19:50:37.174Z"
             },
             "Verkeerspolitie": {
                 "praktijk": "geslaagd",
