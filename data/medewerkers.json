@@ -19,7 +19,69 @@
         "status": {
             "actief": true
         },
-        "trainingen": {}
+        "trainingen": {},
+        "Politie": {
+            "Basis": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Vuurwapen": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Offroad": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Afhandelen verdachte": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Voertuigbeheersing": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Verkeerspolitie": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Motor": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Waterpolitie": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Luchtvaart politie basis": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "OVD": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Unmarked": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Luchtvaart politie": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Opco": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "Mobiele eenheid": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            },
+            "TPE": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd"
+            }
+        }
     },
     {
         "id": "1144261410461843528",
@@ -93,6 +155,15 @@
                 "laatsteUpdate": "2026-04-22T20:19:57.859Z"
             }
         }
+    },
+    {
+        "id": "1385737822891413514",
+        "naam": "fazewaterwalker",
+        "rang": "Aspirant",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
         "id": "1404838036394610710",
@@ -260,6 +331,30 @@
                 "theorie": "gezakt",
                 "praktijk": "open",
                 "laatsteUpdate": "2026-04-23T18:17:10.908Z"
+            },
+            "Verkeerspolitie": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-24T21:33:05.836Z"
+            },
+            "Waterpolitie": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-24T21:33:35.407Z"
+            },
+            "Afhandelen verdachte": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-24T21:34:10.001Z"
+            },
+            "Basis": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-24T21:34:29.438Z"
+            },
+            "Vuurwapen": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-24T21:34:45.092Z"
+            },
+            "Voertuigbeheersing": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-24T21:35:05.548Z"
             }
         }
     }
