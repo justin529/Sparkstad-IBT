@@ -194,7 +194,18 @@
         "status": {
             "actief": true
         },
-        "trainingen": {}
+        "trainingen": {},
+        "Politie": {
+            "Basis": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-28T21:02:23.632Z"
+            },
+            "Vuurwapen": {
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-28T21:37:49.641Z"
+            }
+        }
     },
     {
         "id": "284955303081148417",
@@ -305,17 +316,6 @@
         "id": "748991976636022975",
         "naam": "swordmaster8706",
         "rang": "Aspirant",
-        "status": {
-            "actief": true
-        },
-        "trainingen": {}
-    },
-    {
-        "id": "905452859666100365",
-        "naam": "dylano.a",
-        "roepnummer": "[21-35 | II] Dylano A.",
-        "rang": "Aspirant",
-        "dienst": "Politie",
         "status": {
             "actief": true
         },
