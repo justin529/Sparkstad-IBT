@@ -1,530 +1,213 @@
-﻿[
+[
     {
-        "discordId":  "21-01",
-        "roepnummer":  "21-01",
-        "rang":  "Leiding Korpsleiding [✷✷✷]",
-        "naam":  "Onbekend 21-01",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "1116812364243808266",
+        "naam": "unmarked_ghost",
+        "roepnummer": "[21-37| II] Peter I.",
+        "rang": "Surveillant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-02",
-        "roepnummer":  "21-02",
-        "rang":  "Korpsleiding [✷✷]",
-        "naam":  "Onbekend 21-02",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "1122541315742257184",
+        "naam": "wesley325",
+        "roepnummer": "[21-01 | ✷✷✷ ] Pieter P.",
+        "rang": "Eerste Hoofdcommissaris",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-03",
-        "roepnummer":  "21-03",
-        "rang":  "Korpsleiding [✷]",
-        "naam":  "Onbekend 21-03",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "1144261410461843528",
+        "naam": "robinn2039",
+        "roepnummer": "[21-40 | I] Bennie T.",
+        "rang": "Aspirant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-04",
-        "roepnummer":  "21-04",
-        "rang":  "Hoofd Inspecteur [♕♕]",
-        "naam":  "Onbekend 21-04",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "Politie": {
+            "Afhandelen verdachte": {
+                "theorie": "geslaagd",
+                "praktijk": "geslaagd",
+                "laatsteUpdate": "2026-04-08T15:18:03.452Z"
+            },
+            "Offroad": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:21:02.197Z"
+            },
+            "Verkeerspolitie": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:25:13.240Z"
+            },
+            "Motor": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:28:31.634Z"
+            },
+            "Waterpolitie": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:30:40.460Z"
+            },
+            "Luchtvaart politie basis": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:35:18.933Z"
+            },
+            "Unmarked": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:38:50.702Z"
+            },
+            "Opco": {
+                "theorie": "geslaagd",
+                "praktijk": "open",
+                "laatsteUpdate": "2026-04-08T15:52:09.911Z"
+            }
+        }
     },
     {
-        "discordId":  "21-05",
-        "roepnummer":  "21-05",
-        "rang":  "Hoofd Inspecteur [♕♕]",
-        "naam":  "Onbekend 21-05",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "1307740987849838707",
+        "naam": "jarno_verreussel",
+        "roepnummer": "[21-36 | II] Jarno.",
+        "rang": "Surveillant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-06",
-        "roepnummer":  "21-06",
-        "rang":  "Hoofd Inspecteur [♕♕]",
-        "naam":  "Onbekend 21-06",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "1404838036394610710",
+        "naam": "lucasfeenstra2003",
+        "roepnummer": "lucasfeenstra",
+        "rang": "Surveillant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-07",
-        "roepnummer":  "21-07",
-        "rang":  "Hoofd Inspecteur [♕♕]",
-        "naam":  "Onbekend 21-07",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "1479968754078322735",
+        "naam": "politiesparkstad",
+        "roepnummer": "Politie Sparkstad",
+        "rang": "Surveillant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-08",
-        "roepnummer":  "21-08",
-        "rang":  "Hoofd Inspecteur [♕♕]",
-        "naam":  "Onbekend 21-08",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "274251927192338432",
+        "naam": "cycleeu",
+        "roepnummer": "[21-33 | II] F. Boesschoten",
+        "rang": "Surveillant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-09",
-        "roepnummer":  "21-09",
-        "rang":  "Inspecteur [♕]",
-        "naam":  "Onbekend 21-09",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "523482735394684948",
+        "naam": "rubin848",
+        "roepnummer": "[OM | 21-03 | ✷ ] Rubin L.",
+        "rang": "Onbekend",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-10",
-        "roepnummer":  "21-10",
-        "rang":  "Inspecteur [♕]",
-        "naam":  "Onbekend 21-10",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "654027144481079296",
+        "naam": "justin7787",
+        "roepnummer": "[21-02 | ✷✷ ] Justin H.",
+        "rang": "Hoofdcommissaris",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {
+            "Politie": {
+                "Basis": {
+                    "praktijk": "geslaagd"
+                }
+            }
+        }
     },
     {
-        "discordId":  "21-11",
-        "roepnummer":  "21-11",
-        "rang":  "Inspecteur [♕]",
-        "naam":  "Onbekend 21-11",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "663418275279011840",
+        "naam": "kyaro0261",
+        "roepnummer": "[21-21 | IIII] Johnny H.",
+        "rang": "Hoofdagent",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-12",
-        "roepnummer":  "21-12",
-        "rang":  "Inspecteur [♕]",
-        "naam":  "Onbekend 21-12",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "702187920525623337",
+        "naam": "wicked5417",
+        "roepnummer": "[21-43| I ] Rosa Green",
+        "rang": "Aspirant",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-13",
-        "roepnummer":  "21-13",
-        "rang":  "Inspecteur [♕]",
-        "naam":  "Onbekend 21-13",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "710740734315331604",
+        "naam": "swagahe",
+        "roepnummer": "Justin 2 (Test acc)",
+        "rang": "Agent",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {
+            "Politie": {
+                "Basis": {
+                    "praktijk": "geslaagd"
+                },
+                "Voertuigbeheersing": {
+                    "praktijk": "geslaagd"
+                }
+            }
+        }
     },
     {
-        "discordId":  "21-14",
-        "roepnummer":  "21-14",
-        "rang":  "Brigadier [✥]",
-        "naam":  "Onbekend 21-14",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "748991976636022975",
+        "naam": "swordmaster8706",
+        "rang": "Aspirant",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     },
     {
-        "discordId":  "21-15",
-        "roepnummer":  "21-15",
-        "rang":  "Brigadier [✥]",
-        "naam":  "Onbekend 21-15",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-16",
-        "roepnummer":  "21-16",
-        "rang":  "Brigadier [✥]",
-        "naam":  "Onbekend 21-16",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-17",
-        "roepnummer":  "21-17",
-        "rang":  "Brigadier [✥]",
-        "naam":  "Onbekend 21-17",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-18",
-        "roepnummer":  "21-18",
-        "rang":  "Brigadier [✥]",
-        "naam":  "Onbekend 21-18",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-19",
-        "roepnummer":  "21-19",
-        "rang":  "Hoofd-Agent [IIII]",
-        "naam":  "Onbekend 21-19",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-20",
-        "roepnummer":  "21-20",
-        "rang":  "Hoofd-Agent [IIII]",
-        "naam":  "Onbekend 21-20",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-21",
-        "roepnummer":  "21-21",
-        "rang":  "Hoofd-Agent [IIII]",
-        "naam":  "Onbekend 21-21",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-22",
-        "roepnummer":  "21-22",
-        "rang":  "Hoofd-Agent [IIII]",
-        "naam":  "Onbekend 21-22",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-23",
-        "roepnummer":  "21-23",
-        "rang":  "Hoofd-Agent [IIII]",
-        "naam":  "Onbekend 21-23",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-24",
-        "roepnummer":  "21-24",
-        "rang":  "Agent [III]",
-        "naam":  "Onbekend 21-24",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-25",
-        "roepnummer":  "21-25",
-        "rang":  "Agent [III]",
-        "naam":  "Onbekend 21-25",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-26",
-        "roepnummer":  "21-26",
-        "rang":  "Agent [III]",
-        "naam":  "Onbekend 21-26",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-27",
-        "roepnummer":  "21-27",
-        "rang":  "Agent [III]",
-        "naam":  "Onbekend 21-27",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-28",
-        "roepnummer":  "21-28",
-        "rang":  "Agent [III]",
-        "naam":  "Onbekend 21-28",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-29",
-        "roepnummer":  "21-29",
-        "rang":  "Agent [III]",
-        "naam":  "Onbekend 21-29",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-30",
-        "roepnummer":  "21-30",
-        "rang":  "Agent [III]",
-        "naam":  "Onbekend 21-30",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-31",
-        "roepnummer":  "21-31",
-        "rang":  "Agent [III]",
-        "naam":  "Onbekend 21-31",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-32",
-        "roepnummer":  "21-32",
-        "rang":  "Agent [III]",
-        "naam":  "Onbekend 21-32",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-33",
-        "roepnummer":  "21-33",
-        "rang":  "Surveillant [II]",
-        "naam":  "Onbekend 21-33",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-34",
-        "roepnummer":  "21-34",
-        "rang":  "Surveillant [II]",
-        "naam":  "Onbekend 21-34",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-35",
-        "roepnummer":  "21-35",
-        "rang":  "Surveillant [II]",
-        "naam":  "Onbekend 21-35",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-36",
-        "roepnummer":  "21-36",
-        "rang":  "Surveillant [II]",
-        "naam":  "Onbekend 21-36",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-37",
-        "roepnummer":  "21-37",
-        "rang":  "Surveillant [II]",
-        "naam":  "Onbekend 21-37",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-38",
-        "roepnummer":  "21-38",
-        "rang":  "Surveillant [II]",
-        "naam":  "Onbekend 21-38",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-39",
-        "roepnummer":  "21-39",
-        "rang":  "Surveillant [II]",
-        "naam":  "Onbekend 21-39",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-40",
-        "roepnummer":  "21-40",
-        "rang":  "Aspirant [I]",
-        "naam":  "Onbekend 21-40",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-41",
-        "roepnummer":  "21-41",
-        "rang":  "Aspirant [I]",
-        "naam":  "Onbekend 21-41",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-42",
-        "roepnummer":  "21-42",
-        "rang":  "Aspirant [I]",
-        "naam":  "Onbekend 21-42",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-43",
-        "roepnummer":  "21-43",
-        "rang":  "Aspirant [I]",
-        "naam":  "Onbekend 21-43",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-44",
-        "roepnummer":  "21-44",
-        "rang":  "Aspirant [I]",
-        "naam":  "Onbekend 21-44",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-45",
-        "roepnummer":  "21-45",
-        "rang":  "Aspirant [I]",
-        "naam":  "Onbekend 21-45",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-46",
-        "roepnummer":  "21-46",
-        "rang":  "Aspirant [I]",
-        "naam":  "Onbekend 21-46",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-47",
-        "roepnummer":  "21-47",
-        "rang":  "Aspirant [I]",
-        "naam":  "Onbekend 21-47",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
-    },
-    {
-        "discordId":  "21-48",
-        "roepnummer":  "21-48",
-        "rang":  "Aspirant [I]",
-        "naam":  "Onbekend 21-48",
-        "status":  "Actief",
-        "laatsteUpdate":  "2026-05-05T20:09:29.6201931+02:00",
-        "trainingen":  {
-
-                       }
+        "id": "962022366463029350",
+        "naam": "nick02",
+        "roepnummer": "[21-20 | IIII] Pedro S.",
+        "rang": "Hoofdagent",
+        "dienst": "Politie",
+        "status": {
+            "actief": true
+        },
+        "trainingen": {}
     }
 ]
